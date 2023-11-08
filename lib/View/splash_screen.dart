@@ -28,6 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
             from: widget.from,
           ));
     } catch (e) {
+      print(e.toString());
       debugPrint(e.toString());
     }
   }
